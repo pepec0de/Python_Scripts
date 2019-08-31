@@ -52,8 +52,7 @@ if __name__ == '__main__':
 	eqList = eq.split(' ')
 	print(checkType(eqList, var))
 
-	# Now we split the equation in two different lists having '=' 
-	# in the middle.
+	# Now we split the equation in two different lists having '=' as delimiter
 	e1 = []
 	e2 = []
 	hasFoundEqual = False
